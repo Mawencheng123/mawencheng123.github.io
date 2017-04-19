@@ -1,0 +1,51 @@
+﻿body {
+    background: url("../image/bg.jpg") 50% 0 #000;
+	/*background-size:cover;*/
+	color:#6666FF;
+}
+hr {width:100%;margin:10px 0;padding:0;height:1px;border:0;border-bottom:1px dotted #ccc;}
+.tit_h2 {background:url('../images/list.gif') no-repeat 2px 6px;height:30px;line-height:30px;font-size:19px;font-weight:normal;color:#ff6600;padding-left:15px;margin:10px 0;border-bottom:1px dotted #ff9900;}
+.tit_h3 {background:url(../images/list1.gif) 10px 12px no-repeat;height:30px;line-height:30px;font-size:16px;color:#ffff00;padding-left:25px;}
+.clearfloat {clear:both;height:0px;font-size:1px;line-height:0px;}
+.container {width:1000px;}
+.container img {border:1px dotted #F90;padding:5px;background:#fff;}
+
+.dl_list {padding:10px 0;overflow:hidden;margin:10px 0;clear:both;border-bottom:1px dotted #ccc;}
+.dl_list dt {float:left;width:200px;}
+.dl_list dt img {width:200px;}
+.dl_list dd {float:right;width:760px;line-height:2;font-FAMILY:Arial;font-size:14px;}
+.dl_list dd h4 {color::#ff9900;}
+.dl_list dd p {line-height:2;}
+
+.scrollpic {width:1000px;padding-top:10px;}
+.xc {width:1000px;HEIGHT: 186px; OVERFLOW: hidden; font-family:宋体;margin:0 auto;}
+.xc .h04 {PADDING:50px 0 0 0px; DISPLAY: block;border:0;}
+.xc UL {MARGIN:0; WIDTH:1000px; DISPLAY: inline; FLOAT: left;padding:0;}
+.xc UL LI {	MARGIN: 5px 0px 0px 9px; WIDTH: 230px;height:186px; DISPLAY: inline; FLOAT: left;padding:3px;}
+.xc UL LI IMG {BORDER: 0;  WIDTH: 222px;HEIGHT: 167px;border:3px solid #f19c1b;}
+.xc UL LI SPAN A {TEXT-ALIGN: center; LINE-HEIGHT: 34px; DISPLAY: block;width:196px;height:34px;color:#6b6b6b;margin:0 5px;}
+
+.photo_jd {width:1000px; OVERFLOW: hidden;margin:0 auto;}
+.photo_jd UL {MARGIN:0; padding:0;}
+.photo_jd UL LI {	MARGIN: 5px 10px 0px 10px; WIDTH: 220px;height:360px; DISPLAY: inline; FLOAT: left;padding:3px;}
+.photo_jd UL LI IMG {BORDER: 0;  WIDTH: 220px;HEIGHT: 160px;border:3px solid #8ac523;}
+.photo_jd ul li img:hover {border:3px solid #f19c1b;}
+.photo_jd UL LI SPAN {TEXT-ALIGN: center; LINE-HEIGHT: 34px; DISPLAY: block;width:220px;height:34px;color:#ff6600;margin:0 5px;font-size:14px;}
+.photo_jd UL LI p {text-align:center;line-height:1.5;font-size:12px;}
+
+
+/*top*/
+#scrollTop,
+#scrollTop .level-2{background:url(../images/rocket_up.png) no-repeat 0 0;}
+#scrollTop div{left:0;overflow:hidden;position:absolute;top:0;width:149px;margin:0;padding:0}
+#scrollTop .level-2{background-position:-149px 0;display:none;height:180px;opacity:0;z-index:1}
+#scrollTop .level-3{background:none;cursor:pointer;display:block;height:180px;z-index:2}
+#scrollTop{cursor:pointer;display:block;height:180px;overflow:hidden;position:fixed;right:-42px;top:80%;width:149px;z-index:11;margin:-124px 0 0;padding:0}
+
+table, td, th { border: 1px solid gray;
+text-align:center;
+padding:10px;
+}
+h2{font-size:60px;
+text-align:left;
+}
